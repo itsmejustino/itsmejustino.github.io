@@ -1,19 +1,21 @@
 
-html{
-  background-image: url("../jpg/universe.jpg") ;
-  background: cover center no-repeat;
-  height: 100%;
+html {
+  background-image: url("C:/Users/Justin/OneDrive/Desktop/Dev_Porto/Portofolio/lights.jpg") ;
+  background: cover center no-repeat contain;
+  background-size: contain;
+  width: 100%;
+  height: auto;
   font-family: sans-serif;
 }
 
 a:link, a:visited {
-  background-color: lightblue;
+  background-color: darkgrey;
   border-radius: 10px 5px;
   border-spacing: 5px;
-  color: grey;
-  padding: .1rem .2rem;
+  color: white;
+  padding: 0px;
   text-align: center;
-  text-decoration: none;
+  text-decoration-style: solid;
   display: inline-block;
 }
 
@@ -25,13 +27,16 @@ a:hover, a:active {
 text-align: center;
 margin:auto;
 font-size: 30px;
-color: #0f0f2e;
+color: white;
 }
 
 #nav-list {
+display: inline;
 text-align: center;
 font-size: 16px;
 color:white;
+margin: 0 auto;
+list-style: none;
 }
 
 
@@ -69,23 +74,25 @@ margin-right: auto;
 
 
 .project{
-  color: Black;
+  color: White;
   text-align: center;
   font-size: 20px;
-  padding: 0px;
+  padding: 2px;
 }
 
 .projects{
   list-style-type: none;
-  padding: 0;
-  position: 100%;
+  padding: 0px;
+  position: 50%;
   text-align: center;
+  margin: auto;
 }
 
 #projects-nav{
 margin:auto;
 
 }
+
 
 /*  Start The Socials.    */
 .aside-pad{
@@ -94,49 +101,46 @@ position:sticky;
 }
 
 .title-soc{
-  color: black;
+  color: White;
   text-align: center;
+  text-emphasis-style: bolder;
   font-size: 20px;
   margin: 0 auto;
-  padding: 10px;
+  padding: 0px;
 
 }
 
 
 .no-bullets {
   list-style-type: none; /* Remove bullets */
-  color: black;
-  text-align: center;
-  font-size: 20px;
-  margin: 0 auto;
-  padding: 0;
+ text-align: center;
 }
 
 .linkdn{
 
-    background-color: #4CAF50; /* Green */
-    border-radius: 10px;
+    background-color: grey; 
+    border-radius: 20px;
     color: white;
-    padding: 8px 15px;
+    padding: 0 auto;
     text-decoration: none;
-    display: inline;
+    display: inline-block;
     font-size: 18px;
 }
 
-.github
+#github
 {
-  background-color: #f44336; /* red */
+  background-color: grey; 
   border-radius: 20px;
   color: white;
-  padding: 2px;
+  padding: 0;
   text-align: center;
   text-decoration: none;
-  display: inline;
-  font-size: 18px;
+  display: inline-block;
+  font-size: 20px;
 
 }
-.github:hover{
-background-color:rgb(10,0,0);
+#github:hover{
+background-color:steelblue;
 }
 
 .email{
@@ -145,7 +149,7 @@ background-color:rgb(10,0,0);
   border-color: black 50px;
   border-radius:5px;
   color: black;
-  padding: .5px;
+  padding: 0;
   text-align: center;
   text-decoration: none;
   display: inline;
@@ -175,7 +179,7 @@ padding-top: 300px;
 .welcome
 {
 
-  color: black;
+  color: white;
   position: relative;
   text-align: center;
   width: 800px;
@@ -186,10 +190,11 @@ padding-top: 300px;
 
 
 .content {
-color:black;
+color:white;
 text-align: center;
 font-size: 18px;
 margin: 0 auto;
 }
 
 /* Media Query*/
+
