@@ -1,11 +1,16 @@
 
 html {
-  background-image: url("C:/Users/Justin/OneDrive/Desktop/Dev_Porto/Portofolio/lights.jpg") ;
-  background: cover center no-repeat contain;
-  background-size: contain;
+ 
   width: 100%;
   height: auto;
   font-family: sans-serif;
+}
+
+body{
+  background-image: url("C:/Users/Justin/OneDrive/Desktop/Dev_Porto/Portofolio/lights.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 a:link, a:visited {
